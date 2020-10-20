@@ -1,0 +1,8 @@
+
+<form >
+
+  <input type='text' name='uname'   value="{{user.uname}}" [(ngModel)]="user.uname" /> {{uname}}
+  <input type='text' name='email' value="{{user.email}}" [(ngModel)]="user.email" /> {{email}}
+  <input type ='button' (click)="createuser()"   value='create'/>
+  <input type ='button' (click)="getuser()"   value='getuser'/>
+</form>
